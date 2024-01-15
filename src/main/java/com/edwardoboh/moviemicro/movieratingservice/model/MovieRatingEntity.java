@@ -15,8 +15,7 @@ public class MovieRatingEntity {
 
     public MovieRatingEntity() {}
 
-    public MovieRatingEntity(String id, int rating, String movieId) {
-        this.id = id;
+    public MovieRatingEntity(int rating, String movieId) {
         this.rating = rating;
         this.movieId = movieId;
     }
